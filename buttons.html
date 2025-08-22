@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      html,
+      body {
+        height: 100vh;
+        width: 100vw;
+        display: grid;
+        align-content: center;
+        gap: 40px;
+      }
+      .uber {
+        height: 35px;
+        width: 150px;
+        border: 2px;
+        color: white;
+        background-color: rgb(32, 26, 26);
+        cursor: pointer;
+      }
+      .uber:hover {
+        opacity: 0.9;
+      }
+
+      .amazon {
+        height: 35px;
+        width: 200px;
+        border: 2px;
+        border-radius: 20px;
+        background-color: yellow;
+        color: black;
+        cursor: pointer;
+        transition: 0.8 3s;
+      }
+      .amazon:hover {
+        background-color: darkorange;
+      }
+
+      .git {
+        height: 30px;
+        width: 100px;
+        color: white;
+        background-color: green;
+        transition: box-shadow 3s;
+      }
+      .git:hover {
+        box-shadow: rgba(0, 0, 0, 0.1);
+      }
+
+      #sub {
+        background-color: rgb(207, 34, 34);
+        height: 30px;
+        border: none;
+        color: white;
+        font-size: 13px;
+        border-radius: 2px;
+        cursor: pointer;
+        transition: background-color 3s, color 2s;
+        margin-right: 8px;
+      }
+
+      #sub:hover {
+        background-color: green;
+      }
+      #sub:active {
+        background-color: yellow;
+        opacity: 0.3;
+      }
+
+      #like {
+        color: blue;
+        background-color: white;
+        height: 40px;
+        width: 50px;
+        border: none;
+        font-size: 13px;
+        border: 2px solid blue;
+        cursor: pointer;
+        margin-right: 8px;
+        transition: 0.7 3s;
+      }
+      #like:hover {
+        background-color: blue;
+        color: white;
+      }
+
+      #tweet {
+        color: white;
+        background-color: blue;
+        height: 40px;
+        width: 70px;
+        border: none;
+        font-size: 13px;
+        border-radius: 40%;
+        border: 2px solid blue;
+        cursor: pointer;
+        margin-right: 8p x;
+        box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.15);
+      }
+
+      .bootstrap button {
+        height: 40px;
+        width: 100px;
+        border: none;
+        font-size: 13px;
+        background-color: rgb(160, 74, 160);
+        color: white;
+      }
+
+      .linkedln button {
+        color: white;
+        background-color: blue;
+        width: 200px;
+        border-radius: 20px;
+        height: 34px;
+      }
+    </style>
+  </head>
+  <body>
+    `
+    <button id="sub">Subscribe</button>
+    <button id="like">Like</button>
+    <button id="tweet">Tweet</button>
+    <button class="uber">Request now</button>
+
+    <button class="amazon">Add to Cart</button>
+
+    <button class="git">Sign up</button>
+
+    <div class="bootstrap">
+      <button>Get Started</button>
+      <button>Download</button>
+    </div>
+
+    <div class="linkedln">
+      <button>Apply on company website</button>
+      <button>Save</button>
+    </div>
+  </body>
+</html>
